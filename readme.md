@@ -19,7 +19,7 @@ $ go get github.com/abranhe/tweet
 import "github.com/abranhe/tweet"
 
 func main() {
-	credentials := TwitterCredentials{
+	credentials := tweet.TwitterCredentials{
 		Token: "",
 		ct0:   "",
 		Auth:  "",
